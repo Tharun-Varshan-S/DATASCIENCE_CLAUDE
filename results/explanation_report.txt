@@ -1,0 +1,77 @@
+============================================================
+MODEL PREDICTION EXPLANATION REPORT
+============================================================
+Generated for 5 predictions
+
+--- Explanation 1 ---
+Prediction: Class 8
+Confidence: 0.290
+
+Most Important Features:
+  • pixel_3_2: 1.000 (contribution: +0.042)
+  • pixel_5_2: 1.000 (contribution: +0.038)
+  • pixel_4_2: 1.000 (contribution: +0.029)
+  • pixel_1_5: 1.000 (contribution: +0.028)
+  • pixel_4_4: 0.562 (contribution: +0.026)
+
+Local Decision Factors:
+  • pixel_4_6: 0.000
+
+--- Explanation 2 ---
+Prediction: Class 1
+Confidence: 0.600
+
+Most Important Features:
+  • pixel_3_2: 0.938 (contribution: +0.040)
+  • pixel_2_5: 0.625 (contribution: +0.032)
+  • pixel_2_4: 1.000 (contribution: +0.031)
+  • pixel_2_3: 1.000 (contribution: +0.025)
+  • pixel_5_2: 0.625 (contribution: +0.024)
+
+--- Explanation 3 ---
+Prediction: Class 0
+Confidence: 0.360
+
+Most Important Features:
+  • pixel_2_5: 0.938 (contribution: +0.047)
+  • pixel_1_5: 0.938 (contribution: +0.026)
+  • pixel_5_2: 0.688 (contribution: +0.026)
+  • pixel_5_3: 0.625 (contribution: +0.024)
+  • pixel_6_3: 1.000 (contribution: +0.023)
+
+Local Decision Factors:
+  • pixel_4_4: 0.000
+  • pixel_3_4: 0.000
+  • pixel_5_1: 0.000
+
+--- Explanation 4 ---
+Prediction: Class 7
+Confidence: 0.380
+
+Most Important Features:
+  • pixel_4_4: 1.000 (contribution: +0.047)
+  • pixel_5_2: 0.938 (contribution: +0.036)
+  • pixel_2_5: 0.688 (contribution: +0.035)
+  • pixel_4_2: 0.938 (contribution: +0.027)
+  • pixel_3_5: 0.938 (contribution: +0.025)
+
+Local Decision Factors:
+  • pixel_7_5: 0.000
+  • pixel_4_6: 0.000
+  • pixel_6_5: 0.000
+
+--- Explanation 5 ---
+Prediction: Class 7
+Confidence: 0.250
+
+Most Important Features:
+  • pixel_2_5: 0.812 (contribution: +0.041)
+  • pixel_5_3: 1.000 (contribution: +0.038)
+  • pixel_3_4: 1.000 (contribution: +0.033)
+  • pixel_4_4: 0.625 (contribution: +0.029)
+  • pixel_3_2: 0.688 (contribution: +0.029)
+
+Local Decision Factors:
+  • pixel_7_5: 0.000
+  • pixel_5_2: 0.188
+  • pixel_4_6: 0.000

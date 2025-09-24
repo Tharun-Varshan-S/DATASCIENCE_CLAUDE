@@ -1,0 +1,14 @@
+tensorflow==2.20.0
+keras==3.11.3
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.12.0
+matplotlib==3.8.4
+seaborn==0.13.2
+scikit-learn==1.4.2
+ml-dtypes==0.5.3
+protobuf==6.32.1
+tensorboard==2.20.0
+rich==14.1.0
+pillow==11.3.0
+packaging==25.0

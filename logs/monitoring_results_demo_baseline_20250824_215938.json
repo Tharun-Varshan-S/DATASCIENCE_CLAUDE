@@ -1,0 +1,74 @@
+{
+  "model_name": "demo_baseline",
+  "timestamp": "2025-08-24T21:59:38.319478",
+  "total_samples": 36,
+  "total_errors": 1,
+  "error_rate": 0.027777777777777776,
+  "low_confidence_errors": 1,
+  "high_confidence_errors": 0,
+  "class_error_rates": {
+    "0": {
+      "error_count": 0,
+      "total_count": 12,
+      "error_rate": 0.0
+    },
+    "1": {
+      "error_count": 0,
+      "total_count": 14,
+      "error_rate": 0.0
+    },
+    "2": {
+      "error_count": 1,
+      "total_count": 10,
+      "error_rate": 0.1
+    }
+  },
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      1,
+      9
+    ]
+  ],
+  "error_details": [
+    {
+      "error_id": "demo_baseline_2025-08-24T21:59:38.319478_1",
+      "timestamp": "2025-08-24T21:59:38.319478",
+      "model": "demo_baseline",
+      "sample_index": 1,
+      "true_label": 2,
+      "predicted_label": 1,
+      "confidence": 0.5586057002481903,
+      "predicted_class_prob": 0.5586057002481903,
+      "probability_distribution": [
+        0.007554211150115689,
+        0.5586057002481903,
+        0.43384008860169404
+      ],
+      "features": [
+        -0.6060431988510735,
+        -0.9841514767587299,
+        -0.42590882302929406,
+        -0.599051689673493,
+        -1.035055088809936,
+        -0.4728678439971189,
+        -1.4550185132663978,
+        1.9189348260392372,
+        -0.5972835113531701,
+        0.16952855305610642,
+        -0.9101509517763011,
+        -1.556067618481423,
+        -0.30855597477380986
+      ],
+      "error_magnitude": 1,
+      "is_low_confidence": 

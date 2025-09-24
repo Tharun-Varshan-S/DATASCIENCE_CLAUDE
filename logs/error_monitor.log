@@ -1,0 +1,1820 @@
+2025-09-01 15:53:39.800 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-01 15:53:39.806 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-01 15:53:39.806 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-01 15:53:39.808 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-01 15:53:39.808 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-01 15:54:06.032 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-01 15:54:06.032 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-01 15:54:06.032 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-01 15:54:06.032 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-01 15:54:06.032 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-01 15:54:06.032 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-01 15:54:06.039 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-01 15:54:06.039 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-01 15:54:06.040 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-01 15:54:06.040 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:16:10.504 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-05 20:16:10.508 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:16:10.508 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:16:10.512 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:16:10.514 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:16:20.989 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-05 20:16:20.989 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:16:20.989 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:16:20.994 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:16:20.994 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:18:34.051 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:18:34.055 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:18:34.055 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:18:34.059 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:18:34.059 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:18:54.435 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:18:54.435 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:18:54.435 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:18:54.435 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:18:54.441 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:18:54.441 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:18:54.443 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:18:54.443 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:18:54.445 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:18:54.445 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:13.467 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:13.467 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:13.467 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:13.467 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:13.467 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:13.467 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:13.478 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:13.478 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:13.478 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:13.484 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:13.484 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:13.484 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:13.484 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:13.484 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:13.484 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:30.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:30.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:30.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:30.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:30.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:30.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:30.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:30.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:30.230 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:42.221 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:42.226 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:42.234 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:42.234 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:42.234 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:42.234 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:42.234 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:58.446 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:58.446 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:58.446 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:58.446 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:58.446 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:58.446 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:19:58.458 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:58.458 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:58.458 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:58.458 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:58.458 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:58.458 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:19:58.462 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:58.462 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:58.462 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:58.462 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:58.462 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:58.462 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:19:58.466 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:58.466 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:58.466 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:58.466 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:58.466 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:58.466 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:19:58.472 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:58.472 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:58.472 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:58.472 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:58.472 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:19:58.472 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:10.470 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:10.470 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:10.470 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:10.470 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:10.470 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:10.470 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:10.470 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:10.472 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:10.472 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:10.472 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:10.472 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:10.472 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:10.472 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:10.472 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:10.477 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:23.486 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:23.486 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:23.486 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:23.486 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:23.486 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:23.486 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:23.486 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:23.486 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:23.490 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:23.497 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:23.497 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:23.497 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:23.497 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:23.497 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:23.497 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:23.497 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:23.497 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:23.499 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:23.499 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:23.499 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:23.499 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:23.499 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:23.499 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:23.499 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:23.499 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.862 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.867 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.869 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.875 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:46.877 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.019 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:20:59.027 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.606 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.607 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:23:02.613 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.483 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.486 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.489 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:24:19.491 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.695 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.696 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.698 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:00.699 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.325 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:23.333 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.182 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.184 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.186 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:25:41.187 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.373 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.374 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.375 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:30.376 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.419 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.420 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:26:44.421 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.883 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.885 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.887 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.888 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:05.890 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.921 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:27:29.929 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.756 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:22.760 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.392 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.394 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.395 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:28:42.397 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.593 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 10000
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.602 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 296 (0.0296)
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.606 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 271
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-05 20:30:59.608 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 3
+2025-09-10 00:26:35.559 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-10 00:26:35.570 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-10 00:26:35.580 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-10 00:26:35.595 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-10 00:26:35.598 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-10 00:27:25.213 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-10 00:27:25.646 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-10 00:27:25.653 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-10 00:27:25.653 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-10 00:27:25.655 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-10 09:10:28.960 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-10 09:10:28.962 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-10 09:10:28.962 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-10 09:10:28.962 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-10 09:10:28.963 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-10 09:10:44.252 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-10 09:10:44.254 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-10 09:10:44.254 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-10 09:10:44.256 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-10 09:10:44.258 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-10 09:18:12.713 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-10 09:18:12.717 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-10 09:18:12.719 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-10 09:18:12.722 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-10 09:18:12.724 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 13:53:51.877 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 13:53:51.877 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 13:53:51.877 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 13:53:51.882 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 13:53:51.882 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 13:54:04.263 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 13:54:04.263 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 13:54:04.263 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 13:54:04.263 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 13:54:04.263 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 14:04:15.025 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 14:04:15.025 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 14:04:15.036 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 14:04:15.036 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 14:04:15.036 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 14:04:27.831 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 14:04:27.831 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 14:04:27.831 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 14:04:27.831 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 14:04:27.840 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 14:09:09.694 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 14:09:09.694 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 14:09:09.694 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 14:09:09.694 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 14:09:09.694 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 14:12:54.144 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 14:12:54.144 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 14:12:54.144 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 14:12:54.144 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 14:12:54.150 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 14:13:12.165 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 14:13:12.165 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 14:13:12.165 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 14:13:12.170 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 14:13:12.170 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:08:54.388 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 18:08:54.398 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:08:54.404 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:08:54.413 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:08:54.419 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:10:40.315 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 18:10:40.331 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:10:40.341 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:10:40.354 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:10:40.361 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:11:31.320 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 18:11:31.339 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:11:31.349 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:11:31.357 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:11:31.381 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:12:50.244 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 18:12:50.255 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:12:50.261 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:12:50.278 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:12:50.288 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:13:25.804 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 18:13:25.814 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:13:25.825 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:13:25.839 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:13:25.866 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:14:41.916 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 18:14:41.923 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:14:41.934 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:14:41.944 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:14:41.948 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:15:11.116 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 18:15:11.129 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:15:11.134 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:15:11.149 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:15:11.159 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:16:46.096 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 18:16:46.103 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:16:46.118 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:16:46.123 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:16:46.139 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:17:13.736 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 18:17:13.752 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:17:13.760 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:17:13.766 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:17:13.778 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:18:12.790 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 18:18:12.804 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:18:12.814 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:18:12.824 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:18:12.834 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:18:39.808 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 18:18:39.815 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:18:39.824 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:18:39.836 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:18:39.844 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:20:13.939 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 18:20:13.943 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:20:13.947 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:20:13.950 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:20:13.953 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:20:34.174 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 18:20:34.184 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:20:34.191 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:20:34.195 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:20:34.203 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:25:26.489 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:25:26.512 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:25:26.569 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:25:26.591 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:25:26.616 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:26:40.806 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:40.806 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:40.815 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:40.815 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:40.833 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-24 18:26:40.833 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-24 18:26:40.848 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-24 18:26:40.848 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 5
+2025-09-24 18:26:40.864 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-24 18:26:40.864 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-24 18:26:50.065 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:50.065 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:50.065 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:50.065 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:50.065 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:50.065 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:50.082 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-24 18:26:50.082 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-24 18:26:50.082 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 3 (0.0083)
+2025-09-24 18:26:50.090 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-24 18:26:50.090 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-24 18:26:50.090 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 3
+2025-09-24 18:26:50.103 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:26:50.103 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:26:50.103 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:26:58.059 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:58.059 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:58.059 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:58.059 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:26:58.072 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:58.072 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:58.072 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:58.072 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:26:58.087 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-24 18:26:58.087 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-24 18:26:58.087 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-24 18:26:58.087 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-24 18:26:58.107 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-24 18:26:58.107 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-24 18:26:58.107 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-24 18:26:58.107 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-24 18:26:58.125 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:26:58.125 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:26:58.125 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:26:58.125 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:10.111 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:10.111 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:10.111 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:10.111 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:10.111 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:10.115 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:10.121 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:27:10.121 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:27:10.121 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:27:10.121 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:27:10.121 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:27:10.122 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:10.122 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:10.122 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:10.122 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:10.122 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:20.680 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:20.680 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:20.680 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:20.680 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:20.680 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:20.680 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:20.686 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:20.686 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:20.686 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:20.686 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:20.686 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:20.686 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:20.703 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:20.703 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:20.703 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:20.703 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:20.703 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:20.703 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 5 (0.0439)
+2025-09-24 18:27:20.722 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:20.722 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:20.722 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:20.722 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:20.722 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:20.722 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:20.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-24 18:27:20.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-24 18:27:20.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-24 18:27:20.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-24 18:27:20.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-24 18:27:20.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 5
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:43.725 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:43.736 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:43.736 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:43.736 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:43.736 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:43.736 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:43.736 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:43.736 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:43.751 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:43.751 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:43.751 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:43.751 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:43.751 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:43.751 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:43.751 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:43.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:43.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:43.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:43.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:43.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:43.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:43.769 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:48.676 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:48.676 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:48.676 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:48.676 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:48.676 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:48.676 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:48.676 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:48.676 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:48.689 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:48.689 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:48.689 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:48.689 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:48.689 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:48.689 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:48.689 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:48.689 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 114
+2025-09-24 18:27:48.705 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:48.705 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:48.705 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:48.705 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:48.705 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:48.705 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:48.705 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:48.705 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0175)
+2025-09-24 18:27:48.726 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:48.726 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:48.726 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:48.726 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:48.726 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:48.726 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:48.726 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:48.726 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:48.739 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:48.739 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:48.739 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:48.739 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:48.739 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:48.739 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:48.739 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:48.739 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.857 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.866 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.875 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 0 (0.0000)
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.885 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:27:56.891 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.326 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.358 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.373 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 2 (0.0556)
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.392 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:05.425 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 2
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.657 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.665 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.679 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.702 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:13.726 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.293 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.321 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 36
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.346 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 1 (0.0278)
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.372 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 1
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:28:18.402 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:39:42.529 | INFO     | src.error_monitor:monitor_predictions:150 - Model: baseline_random_forest
+2025-09-24 18:39:42.535 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:39:42.545 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:39:42.550 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:39:42.557 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:39:52.246 | INFO     | src.error_monitor:monitor_predictions:150 - Model: iteration_1
+2025-09-24 18:39:52.246 | INFO     | src.error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:39:52.257 | INFO     | src.error_monitor:monitor_predictions:152 - Total errors: 14 (0.0389)
+2025-09-24 18:39:52.272 | INFO     | src.error_monitor:monitor_predictions:153 - Low confidence errors: 13
+2025-09-24 18:39:52.282 | INFO     | src.error_monitor:monitor_predictions:154 - High confidence errors: 0
+2025-09-24 18:56:30.666 | INFO     | error_monitor:monitor_predictions:150 - Model: demo_baseline
+2025-09-24 18:56:30.733 | INFO     | error_monitor:monitor_predictions:151 - Total samples: 360
+2025-09-24 18:56:30.753 | INFO     | error_monitor:monitor_predictions:152 - Total errors: 16 (0.0444)
+2025-09-24 18:56:30.760 | INFO     | error_monitor:monitor_predictions:153 - Low confidence errors: 12
+2025-09-24 18:56:30.775 | INFO     | error_monitor:monitor_predictions:154 - High confidence errors: 1

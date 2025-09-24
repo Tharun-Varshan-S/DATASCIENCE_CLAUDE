@@ -1,0 +1,218 @@
+{
+  "model_name": "demo_baseline",
+  "timestamp": "2025-08-24T21:54:38.071829",
+  "total_samples": 360,
+  "total_errors": 14,
+  "error_rate": 0.03888888888888889,
+  "low_confidence_errors": 13,
+  "high_confidence_errors": 0,
+  "class_error_rates": {
+    "0": {
+      "error_count": 1,
+      "total_count": 36,
+      "error_rate": 0.027777777777777776
+    },
+    "1": {
+      "error_count": 1,
+      "total_count": 36,
+      "error_rate": 0.027777777777777776
+    },
+    "2": {
+      "error_count": 1,
+      "total_count": 35,
+      "error_rate": 0.02857142857142857
+    },
+    "3": {
+      "error_count": 1,
+      "total_count": 37,
+      "error_rate": 0.02702702702702703
+    },
+    "4": {
+      "error_count": 1,
+      "total_count": 36,
+      "error_rate": 0.027777777777777776
+    },
+    "5": {
+      "error_count": 0,
+      "total_count": 37,
+      "error_rate": 0.0
+    },
+    "6": {
+      "error_count": 1,
+      "total_count": 36,
+      "error_rate": 0.027777777777777776
+    },
+    "7": {
+      "error_count": 0,
+      "total_count": 36,
+      "error_rate": 0.0
+    },
+    "8": {
+      "error_count": 5,
+      "total_count": 35,
+      "error_rate": 0.14285714285714285
+    },
+    "9": {
+      "error_count": 3,
+      "total_count": 36,
+      "error_rate": 0.08333333333333333
+    }
+  },
+  "confusion_matrix": [
+    [
+      35,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      35,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      36,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      37,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      36,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      30,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      33
+    ]
+  ],
+  "error_details": [
+    {
+      "error_id": "demo_baseline_2025-08-24T21:54:38.071829_36",
+      "timestamp": "2025-08-24T21:54:38.071829",
+      "model": "demo_baseline",
+      "sample_index": 36,
+      "true_label": 6,
+      "predicted_label": 8,
+      "confidence": 0.29,
+      "predicted_class_prob": 0.29,
+      "probability_distribution": [
+        0.05,
+        0.15,
+        0.06,
+        0.0,
+        0.19,
+        0.05,
+        0.13,
+        0.06,
+        0.29,
+        0.02
+      ],
+      "features": [
+        0.0,
+        0.0,
+        0.0,
+        0.6875,
+        1.0,
+        0.75,
+        0.0625,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "error_magnitude": 2,
+      "is_low_confidence": 
