@@ -1,7 +1,7 @@
 # dashboard/streamlit_app.py
 """
-Streamlit Dashboard for Intelligent Error Mitigation System
-Interactive dashboard to visualize errors, corrections, and performance improvements.
+Enhanced Streamlit Dashboard for Intelligent Error Mitigation System
+Interactive dashboard with advanced features: file upload, confidence sliders, error heatmaps, and XAI visualizations.
 """
 
 import streamlit as st
@@ -14,6 +14,10 @@ import json
 import os
 import sys
 from datetime import datetime
+import io
+import base64
+from PIL import Image
+import cv2
 
 # Add src directory to path to import our modules
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
@@ -27,6 +31,9 @@ try:
     from self_correction import SelfCorrectionSystem
     from evaluator import ModelEvaluator
     from explainer import ModelExplainer
+    from xai_visualizer import XAIVisualizer
+    from error_storyteller import ErrorStoryteller
+    from strategy_comparator import StrategyComparator
 except ImportError as e:
     st.error(f"Error importing modules: {e}")
     st.stop()
@@ -113,7 +120,8 @@ def main():
     st.sidebar.title("Navigation")
     page = st.sidebar.selectbox(
         "Select Page",
-        ["Overview", "Live Demo", "Error Analysis", "Mitigation Results", "Model Comparison", "Explanations"]
+        ["Overview", "Live Demo", "Custom Upload", "Error Analysis", "Mitigation Results", 
+         "Model Comparison", "XAI Explanations", "Strategy Comparison", "Error Stories"]
     )
     
     # Load data
@@ -125,14 +133,20 @@ def main():
         show_overview(results_data)
     elif page == "Live Demo":
         show_live_demo()
+    elif page == "Custom Upload":
+        show_custom_upload()
     elif page == "Error Analysis":
         show_error_analysis(results_data)
     elif page == "Mitigation Results":
         show_mitigation_results(results_data)
     elif page == "Model Comparison":
         show_model_comparison(results_data)
-    elif page == "Explanations":
-        show_explanations()
+    elif page == "XAI Explanations":
+        show_xai_explanations()
+    elif page == "Strategy Comparison":
+        show_strategy_comparison()
+    elif page == "Error Stories":
+        show_error_stories()
 
 def show_overview(results_data):
     """Show system overview and key metrics."""
@@ -848,6 +862,526 @@ def show_explanations():
         st.write(f"**Description**: {exp['description']}")
         st.write(f"**Common Causes**: {', '.join(exp['causes'])}")
         st.write(f"**Recommended Mitigation**: {exp['mitigation']}")
+
+def show_custom_upload():
+    """Show custom file upload interface for testing models."""
+    
+    st.header("📁 Custom File Upload & Testing")
+    st.markdown("Upload your own images or data files to test the error mitigation system.")
+    
+    # File upload section
+    col1, col2 = st.columns([2, 1])
+    
+    with col1:
+        st.subheader("📤 Upload File")
+        uploaded_file = st.file_uploader(
+            "Choose a file to test",
+            type=['png', 'jpg', 'jpeg', 'csv', 'npy'],
+            help="Supported formats: PNG, JPG, JPEG (images), CSV, NPY (data)"
+        )
+    
+    with col2:
+        st.subheader("⚙️ Model Settings")
+        model_type = st.selectbox(
+            "Select Model Type",
+            ["random_forest", "gradient_boosting", "svm", "logistic_regression"]
+        )
+        
+        confidence_threshold = st.slider(
+            "Confidence Threshold",
+            0.1, 0.9, 0.7, 0.05,
+            help="Minimum confidence for accepting predictions"
+        )
+    
+    if uploaded_file is not None:
+        st.subheader("🔍 File Analysis")
+        
+        # Process uploaded file
+        if uploaded_file.type.startswith('image/'):
+            process_uploaded_image(uploaded_file, model_type, confidence_threshold)
+        elif uploaded_file.type == 'text/csv':
+            process_uploaded_csv(uploaded_file, model_type, confidence_threshold)
+        else:
+            st.error("Unsupported file type. Please upload an image or CSV file.")
+
+def process_uploaded_image(uploaded_file, model_type, confidence_threshold):
+    """Process uploaded image file."""
+    
+    # Load and display image
+    image = Image.open(uploaded_file)
+    st.image(image, caption="Uploaded Image", use_column_width=True)
+    
+    # Convert to numpy array
+    img_array = np.array(image)
+    
+    # Resize if needed (for digits dataset: 8x8)
+    if img_array.shape != (8, 8):
+        img_resized = cv2.resize(img_array, (8, 8))
+        if len(img_resized.shape) == 3:
+            img_resized = cv2.cvtColor(img_resized, cv2.COLOR_RGB2GRAY)
+    else:
+        img_resized = img_array
+    
+    # Normalize
+    img_normalized = img_resized.astype(np.float32) / 255.0
+    img_flattened = img_normalized.flatten()
+    
+    # Train model and make prediction
+    with st.spinner("Training model and making prediction..."):
+        try:
+            # Load digits dataset for training
+            loader = DataLoader('digits')
+            data = loader.load_dataset()
+            
+            # Train model
+            model = BaselineModel(model_type)
+            model.train(data['X_train'], data['y_train'])
+            
+            # Make prediction
+            prediction = model.predict(img_flattened.reshape(1, -1))[0]
+            probabilities = model.predict_proba(img_flattened.reshape(1, -1))[0]
+            confidence = probabilities[prediction]
+            
+            # Display results
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                st.metric("Predicted Class", prediction)
+            
+            with col2:
+                st.metric("Confidence", f"{confidence:.3f}")
+            
+            with col3:
+                if confidence >= confidence_threshold:
+                    st.success("✅ High Confidence")
+                else:
+                    st.warning("⚠️ Low Confidence")
+            
+            # Confidence thresholding
+            if confidence < confidence_threshold:
+                st.warning(f"Prediction rejected due to low confidence ({confidence:.3f} < {confidence_threshold})")
+                st.info("Consider adjusting the confidence threshold or using ensemble methods.")
+            
+            # Show probability distribution
+            st.subheader("📊 Prediction Probabilities")
+            prob_df = pd.DataFrame({
+                'Class': [str(i) for i in range(10)],
+                'Probability': probabilities
+            })
+            
+            fig = px.bar(prob_df, x='Class', y='Probability', 
+                        title="Class Probability Distribution",
+                        color='Probability', color_continuous_scale='viridis')
+            st.plotly_chart(fig, use_container_width=True)
+            
+            # XAI explanation if available
+            if st.checkbox("Show XAI Explanation"):
+                try:
+                    xai_visualizer = XAIVisualizer(
+                        model.model, data['X_train'], data['y_train'],
+                        data.get('feature_names'), data['target_names'], 'image'
+                    )
+                    
+                    explanation = xai_visualizer.explain_prediction_shap(img_flattened.reshape(1, -1))
+                    
+                    if not explanation.get('error'):
+                        st.subheader("🧠 SHAP Explanation")
+                        
+                        # Show top features
+                        top_features = explanation['feature_importance'][:5]
+                        feature_df = pd.DataFrame([
+                            {
+                                'Feature': f['feature'],
+                                'SHAP Value': f['shap_value'],
+                                'Feature Value': f['feature_value']
+                            }
+                            for f in top_features
+                        ])
+                        
+                        st.dataframe(feature_df, use_container_width=True)
+                        
+                        # Create feature importance plot
+                        fig = px.bar(feature_df, x='SHAP Value', y='Feature',
+                                   orientation='h', title="Top Contributing Features (SHAP)")
+                        st.plotly_chart(fig, use_container_width=True)
+                    else:
+                        st.error("XAI explanation not available")
+                        
+                except Exception as e:
+                    st.error(f"XAI explanation failed: {e}")
+        
+        except Exception as e:
+            st.error(f"Error processing image: {e}")
+
+def process_uploaded_csv(uploaded_file, model_type, confidence_threshold):
+    """Process uploaded CSV file."""
+    
+    # Read CSV
+    df = pd.read_csv(uploaded_file)
+    st.subheader("📋 CSV Data Preview")
+    st.dataframe(df.head(), use_container_width=True)
+    
+    st.info(f"CSV contains {len(df)} rows and {len(df.columns)} columns")
+    
+    # For now, show a placeholder for CSV processing
+    st.warning("CSV processing feature is under development. Currently supports image uploads.")
+
+def show_xai_explanations():
+    """Show XAI explanations interface."""
+    
+    st.header("🧠 Explainable AI (XAI) Explanations")
+    st.markdown("Generate and visualize explanations for model predictions using SHAP and LIME.")
+    
+    # Configuration
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        dataset_name = st.selectbox(
+            "Select Dataset",
+            ["digits", "breast_cancer", "wine"],
+            key="xai_dataset"
+        )
+    
+    with col2:
+        model_type = st.selectbox(
+            "Select Model Type",
+            ["random_forest", "gradient_boosting", "svm"],
+            key="xai_model"
+        )
+    
+    # Load data and train model
+    if st.button("🚀 Generate XAI Explanations"):
+        with st.spinner("Loading data and training model..."):
+            try:
+                # Load data
+                loader = DataLoader(dataset_name)
+                data = loader.load_dataset()
+                
+                # Train model
+                model = BaselineModel(model_type)
+                model.train(data['X_train'], data['y_train'])
+                
+                # Initialize XAI visualizer
+                xai_visualizer = XAIVisualizer(
+                    model.model, data['X_train'], data['y_train'],
+                    data.get('feature_names'), data['target_names'], data['data_type']
+                )
+                
+                # Get some test samples
+                n_samples = min(5, len(data['X_test']))
+                test_indices = np.random.choice(len(data['X_test']), n_samples, replace=False)
+                
+                st.subheader("🔍 Sample Explanations")
+                
+                for i, idx in enumerate(test_indices):
+                    with st.expander(f"Sample {i+1} (Index {idx})"):
+                        sample = data['X_test'][idx:idx+1]
+                        true_label = data['y_test'][idx]
+                        
+                        # Get predictions
+                        prediction = model.predict(sample)[0]
+                        probabilities = model.predict_proba(sample)[0]
+                        confidence = probabilities[prediction]
+                        
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("True Class", data['target_names'][true_label])
+                        with col2:
+                            st.metric("Predicted Class", data['target_names'][prediction])
+                        with col3:
+                            st.metric("Confidence", f"{confidence:.3f}")
+                        
+                        # SHAP explanation
+                        if st.checkbox(f"Show SHAP Explanation", key=f"shap_{i}"):
+                            shap_explanation = xai_visualizer.explain_prediction_shap(sample, idx)
+                            
+                            if not shap_explanation.get('error'):
+                                # Show top features
+                                top_features = shap_explanation['feature_importance'][:10]
+                                feature_df = pd.DataFrame([
+                                    {
+                                        'Feature': f['feature'],
+                                        'SHAP Value': f['shap_value'],
+                                        'Feature Value': f['feature_value']
+                                    }
+                                    for f in top_features
+                                ])
+                                
+                                st.dataframe(feature_df, use_container_width=True)
+                                
+                                # Create visualization
+                                fig = px.bar(feature_df, x='SHAP Value', y='Feature',
+                                           orientation='h', title="SHAP Feature Importance")
+                                st.plotly_chart(fig, use_container_width=True)
+                            else:
+                                st.error("SHAP explanation not available")
+                        
+                        # LIME explanation
+                        if st.checkbox(f"Show LIME Explanation", key=f"lime_{i}"):
+                            lime_explanation = xai_visualizer.explain_prediction_lime(sample, idx)
+                            
+                            if not lime_explanation.get('error'):
+                                # Show top features
+                                top_features = lime_explanation['feature_importance'][:10]
+                                feature_df = pd.DataFrame([
+                                    {
+                                        'Feature': f['feature'],
+                                        'LIME Weight': f['lime_weight'],
+                                        'Feature Value': f['feature_value']
+                                    }
+                                    for f in top_features
+                                ])
+                                
+                                st.dataframe(feature_df, use_container_width=True)
+                                
+                                # Create visualization
+                                fig = px.bar(feature_df, x='LIME Weight', y='Feature',
+                                           orientation='h', title="LIME Feature Importance")
+                                st.plotly_chart(fig, use_container_width=True)
+                            else:
+                                st.error("LIME explanation not available")
+            
+            except Exception as e:
+                st.error(f"Error generating XAI explanations: {e}")
+
+def show_strategy_comparison():
+    """Show strategy comparison interface."""
+    
+    st.header("⚖️ Strategy Comparison Dashboard")
+    st.markdown("Compare the effectiveness of different mitigation strategies.")
+    
+    # Configuration
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        dataset_name = st.selectbox(
+            "Select Dataset",
+            ["digits", "breast_cancer", "wine"],
+            key="comp_dataset"
+        )
+    
+    with col2:
+        baseline_model_type = st.selectbox(
+            "Select Baseline Model",
+            ["random_forest", "gradient_boosting", "svm"],
+            key="comp_model"
+        )
+    
+    # Strategy selection
+    st.subheader("🎯 Select Strategies to Compare")
+    
+    strategies_to_test = []
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        if st.checkbox("Confidence Thresholding"):
+            strategies_to_test.append(('confidence_thresholding', {'confidence_threshold': 0.7}))
+        
+        if st.checkbox("Ensemble Learning"):
+            strategies_to_test.append(('ensemble_learning', {'n_estimators': 5}))
+    
+    with col2:
+        if st.checkbox("Data Augmentation"):
+            strategies_to_test.append(('data_augmentation', {'augmentation_method': 'smote'}))
+        
+        if st.checkbox("Class Balancing"):
+            strategies_to_test.append(('class_balancing', {'balancing_method': 'class_weight'}))
+    
+    with col3:
+        if st.checkbox("Feature Selection"):
+            strategies_to_test.append(('feature_selection', {'selection_method': 'importance'}))
+        
+        if st.checkbox("Outlier Removal"):
+            strategies_to_test.append(('outlier_removal', {'contamination': 0.1}))
+    
+    if st.button("🚀 Run Strategy Comparison"):
+        if not strategies_to_test:
+            st.warning("Please select at least one strategy to compare.")
+        else:
+            with st.spinner("Running strategy comparison..."):
+                try:
+                    # Load data
+                    loader = DataLoader(dataset_name)
+                    data = loader.load_dataset()
+                    
+                    # Train baseline model
+                    baseline_model = BaselineModel(baseline_model_type)
+                    baseline_model.train(data['X_train'], data['y_train'])
+                    baseline_accuracy = baseline_model.evaluate(data['X_test'], data['y_test'])['metrics']['accuracy']
+                    
+                    # Initialize components
+                    error_monitor = ErrorMonitor()
+                    error_analyzer = ErrorAnalyzer()
+                    mitigation_strategies = MitigationStrategies()
+                    strategy_comparator = StrategyComparator(data['target_names'])
+                    
+                    # Monitor errors
+                    baseline_eval = baseline_model.evaluate(data['X_test'], data['y_test'])
+                    monitoring_results = error_monitor.monitor_predictions(
+                        data['X_test'], data['y_test'],
+                        baseline_eval['predictions'], baseline_eval['probabilities'],
+                        "baseline"
+                    )
+                    
+                    # Analyze errors
+                    error_analysis = error_analyzer.analyze_errors(
+                        monitoring_results['error_details'],
+                        data['X_test'], data['y_test']
+                    )
+                    
+                    # Test each strategy
+                    for strategy_name, params in strategies_to_test:
+                        st.write(f"Testing {strategy_name.replace('_', ' ').title()}...")
+                        
+                        try:
+                            result = mitigation_strategies.apply_mitigation(
+                                strategy_name, baseline_model.model,
+                                data['X_train'], data['y_train'],
+                                data['X_test'], data['y_test'],
+                                error_analysis, **params
+                            )
+                            strategy_comparator.add_strategy_result(strategy_name, result)
+                        except Exception as e:
+                            st.error(f"Strategy {strategy_name} failed: {e}")
+                    
+                    # Display comparison results
+                    st.subheader("📊 Comparison Results")
+                    
+                    # Create comparison chart
+                    comparison_path = strategy_comparator.create_performance_comparison(baseline_accuracy)
+                    
+                    if comparison_path and os.path.exists(comparison_path):
+                        st.image(comparison_path, caption="Strategy Performance Comparison")
+                    
+                    # Create interactive comparison
+                    interactive_path = strategy_comparator.create_interactive_comparison(baseline_accuracy)
+                    
+                    if interactive_path and os.path.exists(interactive_path):
+                        st.subheader("🎮 Interactive Comparison")
+                        with open(interactive_path, 'r') as f:
+                            html_content = f.read()
+                        st.components.v1.html(html_content, height=800)
+                    
+                    # Generate report
+                    report_path = strategy_comparator.generate_comparison_report(baseline_accuracy)
+                    
+                    if report_path and os.path.exists(report_path):
+                        st.subheader("📋 Detailed Report")
+                        with open(report_path, 'r') as f:
+                            report_content = f.read()
+                        st.text_area("Strategy Comparison Report", report_content, height=400)
+                
+                except Exception as e:
+                    st.error(f"Error running strategy comparison: {e}")
+
+def show_error_stories():
+    """Show error storytelling interface."""
+    
+    st.header("📖 Error Stories & Analysis")
+    st.markdown("Generate human-readable stories explaining why the model made errors.")
+    
+    # Configuration
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        dataset_name = st.selectbox(
+            "Select Dataset",
+            ["digits", "breast_cancer", "wine"],
+            key="story_dataset"
+        )
+    
+    with col2:
+        model_type = st.selectbox(
+            "Select Model Type",
+            ["random_forest", "gradient_boosting", "svm"],
+            key="story_model"
+        )
+    
+    n_error_cases = st.slider("Number of Error Cases to Analyze", 1, 10, 5)
+    
+    if st.button("📚 Generate Error Stories"):
+        with st.spinner("Generating error stories..."):
+            try:
+                # Load data
+                loader = DataLoader(dataset_name)
+                data = loader.load_dataset()
+                
+                # Train model
+                model = BaselineModel(model_type)
+                model.train(data['X_train'], data['y_train'])
+                
+                # Initialize components
+                error_monitor = ErrorMonitor()
+                xai_visualizer = XAIVisualizer(
+                    model.model, data['X_train'], data['y_train'],
+                    data.get('feature_names'), data['target_names'], data['data_type']
+                )
+                storyteller = ErrorStoryteller(
+                    data['target_names'], data.get('feature_names'), data['data_type']
+                )
+                
+                # Monitor errors
+                baseline_eval = model.evaluate(data['X_test'], data['y_test'])
+                monitoring_results = error_monitor.monitor_predictions(
+                    data['X_test'], data['y_test'],
+                    baseline_eval['predictions'], baseline_eval['probabilities'],
+                    "baseline"
+                )
+                
+                # Get error cases
+                error_cases = monitoring_results['error_details'][:n_error_cases]
+                
+                if not error_cases:
+                    st.warning("No errors found in the test set. Try a different model or dataset.")
+                else:
+                    st.subheader(f"📖 Error Stories ({len(error_cases)} cases)")
+                    
+                    # Generate stories for each error case
+                    for i, error_case in enumerate(error_cases):
+                        with st.expander(f"Error Story #{i+1}: {error_case['true_label']} → {error_case['predicted_label']}"):
+                            
+                            # Get XAI explanation
+                            sample_idx = error_case['sample_index']
+                            sample = data['X_test'][sample_idx:sample_idx+1]
+                            
+                            shap_explanation = xai_visualizer.explain_prediction_shap(sample, sample_idx)
+                            
+                            # Generate story
+                            story = storyteller.generate_error_story(
+                                {
+                                    'true_class': data['target_names'][error_case['true_label']],
+                                    'predicted_class': data['target_names'][error_case['predicted_label']],
+                                    'confidence': error_case['confidence'],
+                                    'error_type': 'High Confidence Error' if error_case['confidence'] > 0.8 else 'Low Confidence Error',
+                                    'sample_idx': sample_idx
+                                },
+                                shap_explanation if not shap_explanation.get('error') else None
+                            )
+                            
+                            # Display story components
+                            st.write("**Title:**", story['story_components']['title'])
+                            st.write("**Summary:**", story['story_components']['summary'])
+                            st.write("**Detailed Explanation:**", story['story_components']['detailed_explanation'])
+                            
+                            if st.checkbox(f"Show Full Story", key=f"full_story_{i}"):
+                                st.text_area("Complete Story", story['full_story'], height=300)
+                    
+                    # Generate and save story collection
+                    if st.button("💾 Save All Stories"):
+                        story_path = storyteller.create_error_story_collection(
+                            [{
+                                'true_class': data['target_names'][ec['true_label']],
+                                'predicted_class': data['target_names'][ec['predicted_label']],
+                                'confidence': ec['confidence'],
+                                'error_type': 'High Confidence Error' if ec['confidence'] > 0.8 else 'Low Confidence Error',
+                                'sample_idx': ec['sample_index']
+                            } for ec in error_cases]
+                        )
+                        st.success(f"Stories saved to: {story_path}")
+            
+            except Exception as e:
+                st.error(f"Error generating error stories: {e}")
 
 if __name__ == "__main__":
     main()

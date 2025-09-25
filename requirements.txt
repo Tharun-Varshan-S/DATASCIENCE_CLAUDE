@@ -1,3 +1,4 @@
+# Core ML and Data Science Libraries
 tensorflow==2.20.0
 keras==3.11.3
 numpy==1.26.4
@@ -12,3 +13,31 @@ tensorboard==2.20.0
 rich==14.1.0
 pillow==11.3.0
 packaging==25.0
+
+# Explainable AI (XAI) Libraries
+shap==0.44.1
+lime==0.2.0.1
+
+# Imbalanced Learning
+imbalanced-learn==0.11.0
+
+# Web Framework and API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Dashboard and Visualization
+streamlit==1.28.1
+plotly==5.17.0
+
+# Image Processing
+opencv-python==4.8.1.78
+
+# Database and Logging
+sqlite3  # Built-in with Python
+loguru==0.7.2
+
+# Additional Utilities
+python-dotenv==1.0.0
+pydantic==2.5.0
+httpx==0.25.2

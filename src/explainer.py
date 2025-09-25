@@ -399,7 +399,7 @@ class ModelExplainer:
         
         prediction_proba = explanation.get('prediction_probability')
         
-        if prediction_proba:
+        if prediction_proba is not None and len(prediction_proba) > 0:
             confidence = prediction_proba[pred_label]
             
             if confidence < 0.6:
@@ -504,7 +504,7 @@ class ModelExplainer:
         
         # 4. Prediction confidence
         ax = axes[1, 1]
-        if explanation['prediction_probability']:
+        if explanation['prediction_probability'] is not None and len(explanation['prediction_probability']) > 0:
             proba = explanation['prediction_probability']
             classes = range(len(proba))
             predicted_class = explanation['prediction']
@@ -550,7 +550,7 @@ class ModelExplainer:
             report.append(f"--- Explanation {i+1} ---")
             report.append(f"Prediction: Class {explanation['prediction']}")
             
-            if explanation['prediction_probability']:
+            if explanation['prediction_probability'] is not None and len(explanation['prediction_probability']) > 0:
                 confidence = max(explanation['prediction_probability'])
                 report.append(f"Confidence: {confidence:.3f}")
             

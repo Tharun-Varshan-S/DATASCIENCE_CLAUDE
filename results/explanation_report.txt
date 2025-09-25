@@ -16,6 +16,7 @@ Most Important Features:
 
 Local Decision Factors:
   • pixel_4_6: 0.000
+  • pixel_3_3: 0.562
 
 --- Explanation 2 ---
 Prediction: Class 1
@@ -74,4 +75,4 @@ Most Important Features:
 Local Decision Factors:
   • pixel_7_5: 0.000
   • pixel_5_2: 0.188
-  • pixel_4_6: 0.000
+  • pixel_6_5: 0.000

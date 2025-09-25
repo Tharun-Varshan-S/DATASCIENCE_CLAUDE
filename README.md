@@ -1,8 +1,17 @@
-# Intelligent Error Mitigation System for Machine Learning Models
+# 🚀 Intelligent Error Mitigation System for Machine Learning Models
 
-A comprehensive Python system that automatically detects, analyzes, and mitigates errors in machine learning model predictions through intelligent strategies and self-correction mechanisms.
+A comprehensive Python system that automatically detects, analyzes, and mitigates errors in machine learning model predictions through intelligent strategies and self-correction mechanisms. **Now enhanced with advanced XAI capabilities, error storytelling, strategy comparison, MLOps logging, and a full REST API!**
 
 ## 🎯 Features
+
+### 🆕 Enhanced Features (NEW!)
+- **🧠 Explainable AI (XAI)**: SHAP and LIME visualizations for model interpretability
+- **📖 Error Storytelling**: Human-readable explanations of model errors
+- **⚖️ Strategy Comparison**: Interactive dashboard comparing mitigation strategies
+- **📁 Custom File Upload**: Upload images and CSV files for testing
+- **📊 MLOps Logging**: Production-ready logging with SQLite database
+- **🌐 FastAPI REST API**: Complete REST API for external integration
+- **🎮 Interactive Dashboard**: Enhanced Streamlit dashboard with new features
 
 ### Core Functionality
 - **Baseline Model Training**: Support for multiple ML algorithms (Random Forest, SVM, Neural Networks, etc.)
@@ -64,31 +73,103 @@ cd intelligent_error_mitigation
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+# Install dependencies (including new XAI and API libraries)
 pip install -r requirements.txt
 
 # Create directory structure
-mkdir src dashboard data models logs results
+mkdir src dashboard data models logs results api
 ```
 
-### 2. Run the System
+### 2. Run Enhanced Demo
 
 ```bash
-# Run the complete pipeline
-python main.py
-
-# Run quick demo (faster for testing)
-python main.py --demo
+# Run the enhanced features demonstration
+python demo_enhanced_features.py
 ```
 
-### 3. Launch Dashboard
+### 3. Launch Enhanced Dashboard
 
 ```bash
-# Start the interactive dashboard
+# Start the interactive dashboard with new features
 streamlit run dashboard/streamlit_app.py
 ```
 
+### 4. Start FastAPI Server
+
+```bash
+# Start the REST API server
+cd api
+python app.py
+
+# Or using uvicorn directly
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+### 5. Access Features
+
+- **Dashboard**: http://localhost:8501
+- **API Documentation**: http://localhost:8000/docs
+- **API Health Check**: http://localhost:8000/health
+
 ## 📊 Usage Examples
+
+### 🆕 Enhanced Features Usage
+
+#### XAI Explanations
+```python
+from src.xai_visualizer import XAIVisualizer
+
+# Initialize XAI visualizer
+xai_visualizer = XAIVisualizer(model, X_train, y_train, feature_names, target_names)
+
+# Generate SHAP explanation
+explanation = xai_visualizer.explain_prediction_shap(sample)
+print(f"Top features: {explanation['feature_importance'][:5]}")
+```
+
+#### Error Storytelling
+```python
+from src.error_storyteller import ErrorStoryteller
+
+# Generate human-readable error story
+storyteller = ErrorStoryteller(target_names, feature_names)
+story = storyteller.generate_error_story(error_case, feature_analysis)
+print(story['full_story'])
+```
+
+#### Strategy Comparison
+```python
+from src.strategy_comparator import StrategyComparator
+
+# Compare mitigation strategies
+comparator = StrategyComparator(target_names)
+comparator.add_strategy_result('ensemble_learning', result1)
+comparator.add_strategy_result('data_augmentation', result2)
+comparator.create_performance_comparison(baseline_accuracy)
+```
+
+#### MLOps Logging
+```python
+from src.mlops_logger import MLOpsLogger
+
+# Log predictions and errors
+mlops_logger = MLOpsLogger()
+mlops_logger.log_prediction(model_name, sample_id, true_label, predicted_label, confidence)
+mlops_logger.generate_mlops_report()
+```
+
+#### FastAPI Usage
+```bash
+# Make predictions via API
+curl -X POST "http://localhost:8000/predict" \
+     -H "Content-Type: application/json" \
+     -d '{"features": [0.1, 0.2, 0.3], "model_name": "random_forest"}'
+
+# Upload image for prediction
+curl -X POST "http://localhost:8000/upload/image" \
+     -F "file=@image.png" \
+     -F "model_name=random_forest"
+```
 
 ### Basic Usage
 
@@ -141,10 +222,17 @@ results = corrector.run_self_correction(
 )
 ``` -->
 
-## 📈 Dashboard Features
+## 📈 Enhanced Dashboard Features
 
-The Streamlit dashboard provides:
+The enhanced Streamlit dashboard provides:
 
+### 🆕 New Pages
+- **Custom Upload**: Upload images and CSV files for testing
+- **XAI Explanations**: Interactive SHAP and LIME visualizations
+- **Strategy Comparison**: Compare mitigation strategies with charts
+- **Error Stories**: Human-readable error explanations
+
+### Existing Pages (Enhanced)
 - **Overview**: System metrics and performance trends
 - **Live Demo**: Interactive model training and mitigation
 - **Error Analysis**: Detailed error categorization and visualization
@@ -266,6 +354,24 @@ The system has been tested on multiple datasets with consistent improvements:
 - Breast Cancer: 2-5% accuracy improvement
 - Wine: 1-4% accuracy improvement
 
+## 🆕 What's New in This Version
+
+### Major Enhancements Added:
+1. **🧠 Explainable AI (XAI)**: Full SHAP and LIME integration for model interpretability
+2. **📖 Error Storytelling**: Human-readable explanations of model errors
+3. **⚖️ Strategy Comparison**: Interactive dashboard for comparing mitigation strategies
+4. **📁 File Upload**: Upload custom images and CSV files for testing
+5. **📊 MLOps Logging**: Production-ready logging with SQLite database
+6. **🌐 FastAPI REST API**: Complete REST API for external integration
+7. **🎮 Enhanced Dashboard**: New pages and interactive features
+
+### Technical Improvements:
+- **Modular Architecture**: Clean separation of concerns with new modules
+- **Production Ready**: MLOps logging and monitoring capabilities
+- **API First**: RESTful API for easy integration
+- **Interactive Visualizations**: Plotly-based charts and graphs
+- **Comprehensive Documentation**: Detailed guides and examples
+
 ## 🔮 Future Enhancements
 
 Potential improvements and extensions:
@@ -277,6 +383,9 @@ Potential improvements and extensions:
 5. **Model Versioning**: Track and compare different model versions
 6. **Real-time Monitoring**: Live error detection in production systems
 7. **Custom Strategies**: Plugin architecture for custom mitigation methods
+8. **Cloud Integration**: AWS/Azure/GCP deployment templates
+9. **Multi-language Support**: Support for different programming languages
+10. **Advanced Analytics**: Time series analysis and trend detection
 
 ## 🤝 Contributing
 
@@ -296,20 +405,41 @@ This project is open source and available under the MIT License.
 
 For questions, issues, or feature requests:
 
-1. Check the documentation and examples
-2. Review the dashboard for visual guidance
-3. Examine the log files for detailed debugging information
-4. Test with the provided demo datasets first
+1. **📚 Documentation**: Read `ENHANCED_FEATURES_GUIDE.md` for detailed instructions
+2. **🎮 Dashboard**: Use the enhanced dashboard for visual guidance
+3. **🔍 Logs**: Check the `logs/` directory for detailed debugging information
+4. **🚀 Demo**: Run `python demo_enhanced_features.py` to test all features
+5. **🌐 API Docs**: Visit `/docs` when running the FastAPI server
+6. **📊 MLOps**: Check the MLOps database and reports for monitoring
 
 ## 🏆 Acknowledgments
 
 This system incorporates ideas and techniques from:
-- Scikit-learn for ML algorithms and utilities
-- LIME and SHAP for model explainability
-- Streamlit for interactive dashboards
-- Plotly for advanced visualizations
-- Imbalanced-learn for handling class imbalance
+- **Scikit-learn** for ML algorithms and utilities
+- **LIME and SHAP** for model explainability
+- **Streamlit** for interactive dashboards
+- **Plotly** for advanced visualizations
+- **Imbalanced-learn** for handling class imbalance
+- **FastAPI** for REST API development
+- **SQLite** for structured logging
+- **OpenCV** for image processing
 
 ---
 
-**Happy Machine Learning! 🚀**
+## 🎉 Get Started Now!
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run the enhanced demo
+python demo_enhanced_features.py
+
+# 3. Launch the dashboard
+streamlit run dashboard/streamlit_app.py
+
+# 4. Start the API server
+cd api && python app.py
+```
+
+**🚀 Your enhanced ML Error Mitigation System is ready!**
